@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="window" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
+    <children>
+        <TextArea fx:id="build" layoutX="318.0" layoutY="40.0" prefHeight="119.0" prefWidth="243.0" />
+        <Text fx:id="street" layoutX="341.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="улица: " wrappingWidth="208.00009155273438">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Text fx:id="house" layoutX="340.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="дом: " wrappingWidth="199.20004272460938">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Text fx:id="flat" layoutX="334.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="квартира: " wrappingWidth="187.20004272460938">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Button fx:id="in" layoutX="318.0" layoutY="200.0" mnemonicParsing="false" onAction="#pin" text="Заселиться">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="out" layoutX="449.0" layoutY="200.0" mnemonicParsing="false" onAction="#pout" text="Выселиться">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="say" layoutX="45.0" layoutY="162.0" prefHeight="119.0" prefWidth="151.0" />
+        <Text fx:id="room" layoutX="318.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="комната: " wrappingWidth="251.99996948242188">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Button fx:id="student" layoutX="45.0" layoutY="40.0" mnemonicParsing="false" onAction="#pstudent" prefHeight="38.0" prefWidth="151.0" text="Студент">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="worker" layoutX="45.0" layoutY="92.0" mnemonicParsing="false" onAction="#pworker" prefHeight="38.0" prefWidth="151.0" text="Рабочий">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
